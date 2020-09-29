@@ -43,7 +43,7 @@ namespace EmojiSpeak
             foreach (char c in text.ToCharArray())
             {
                 if(Char.Equals(c, ' ')) {
-                    sb.Append(" ");
+                    sb.Append("  ");
                 }
 
                 if (!Char.IsLetter(c)) continue;
